@@ -1,7 +1,8 @@
+
 import delay from 'core-js/core/delay'
 
 export default {
-  namespace: 'count',
+  namespace: 'home',
   state: 0,
   reducers: {
     add(state) { return state + 1 },
@@ -13,3 +14,4 @@ export default {
     },
   },
 }
+ 

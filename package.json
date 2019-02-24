@@ -11,9 +11,12 @@
     "dva": "^2.4.1",
     "mainto-jssdk": "^1.5.25",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "tslint-react": "^3.6.0"
   },
   "devDependencies": {
+    "@types/react": "^16.8.4",
+    "@types/react-dom": "^16.8.2",
     "babel-plugin-dva-hmr": "^0.3.2",
     "eslint": "^4.14.0",
     "eslint-config-umi": "^0.1.1",
@@ -23,6 +26,8 @@
     "eslint-plugin-react": "^7.1.0",
     "husky": "^0.12.0",
     "redbox-react": "^1.4.3",
-    "roadhog": "^2.0.0"
+    "roadhog": "^2.0.0",
+    "ts-lint": "^4.5.1",
+    "ts-loader": "^5.3.3"
   }
 }

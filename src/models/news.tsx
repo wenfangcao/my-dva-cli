@@ -1,15 +1,11 @@
+
 import delay from 'core-js/core/delay'
 
 export default {
-  namespace: 'second',
-  state: {
-    num: 0
-  },
+  namespace: 'news',
+  state: 0,
   reducers: {
-    add(state) {
-      state.num += 1;
-      return  {...state}
-    },
+    add(state) { return state + 1 },
   },
   effects: {
     *addAfter1Second(action, { call, put }) {
@@ -18,3 +14,4 @@ export default {
     },
   },
 }
+ 
